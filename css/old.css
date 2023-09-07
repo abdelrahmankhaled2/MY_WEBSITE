@@ -144,6 +144,9 @@ a:hover {
   text-transform: uppercase;
 }
 
+.subtitle-a {
+  color: #4e4e4e;
+}
 
 .line-mf {
   width: 40px;
@@ -658,10 +661,7 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
-.lead {
-    font-size: 1.3rem !important;
-    font-weight: 400 !important;
-}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -725,7 +725,6 @@ a:hover {
   text-align: center;
   padding: .4rem 0;
 }
-
 
 
 .service-box .s-description {
@@ -954,8 +953,6 @@ a:hover {
   padding: 18px;
   font-style: italic;
 }
-
-
 
 /*------/ Comments /------*/
 
@@ -1264,13 +1261,4 @@ footer .credits a {
     bottom: 15px;
   }
 }
-
-@media (max-width: 1200px) {
-  .card-description {
-    max-height: 100%;
-  }
-  
-}
-
-
 
