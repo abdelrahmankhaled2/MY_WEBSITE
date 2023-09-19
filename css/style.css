@@ -208,6 +208,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
+
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
@@ -766,6 +767,8 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  text-align: center;
+  justify-content: center;
 }
 
 .work-box:hover img {
@@ -841,6 +844,7 @@ a:hover {
   margin: 1rem 0;
   display: block;
   font-size: 1.4rem;
+  
 }
 
 .testimonial-box .comit {
@@ -908,6 +912,9 @@ a:hover {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+}
+.post-author .author {
+  color: #0078ff;
 }
 
 /*======================================
@@ -1274,3 +1281,8 @@ footer .credits a {
 
 
 
+.ico-hackerone {
+  background-image: url(https://hackerone.com/favicon.ico);
+  background-size: contain;
+  background-position: center;
+}
